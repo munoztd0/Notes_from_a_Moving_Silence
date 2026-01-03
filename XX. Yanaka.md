@@ -1,8 +1,10 @@
 November 7th, 2025.
 
-![image](.attachments/fc323fd6f362594c85499e64610b1d589fb025bf.png) 
+
 
 First day in Japan. I return to my first Tokyu Hit expedition, the Yanaka district.
+
+![image](.attachments/4d31a0fb8bd6b7343e76b50478e6ffd1026f6b41.avif) 
 
 This time, the weather is nice, and I take advantage of this gentle November sun to warm up my skin. I start upside down this time. I learned from my mistakes.
 
@@ -15,6 +17,8 @@ This time, it seems to me almost austere. Crossing it, I see the Tokyo Radio Tow
 ![image](.attachments/3ffd3d25629caaa3d3fe119f97e4c9e7bdae0bc9.avif) 
 
 I arrive at the museum of the famous sculptor Asakura. To my great surprise, I am directly informed by the guide that I have the right to a really special exhibition, because it is the 100th anniversary of his daughter, Kyoko, and that on this occasion, they paid tribute to his works. His shapes and features are smooth and simple, different from those of his father, rough and tortured.
+
+![image](.attachments/fc323fd6f362594c85499e64610b1d589fb025bf.png) 
 
 I ask the guide why all the models have Western names and physiognomies, for example Brigitte, Jacquie, Hélène. The guide explains to me that this is all the depth of Kyoko's work. She, who was able to foresee the liberation of Western women in the 70s, is inspired by these ideals of beauty.
 
