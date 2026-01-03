@@ -7,3 +7,7 @@ It's beautiful, but it also stings a little. That mix of leaving something behin
 A silent promise that whatever waits across the sea is worth the risk, even if they are not sure yet.
 
 Just a few minutes of sunset, but so many stories that have crossed that horizon.
+
+![image](.attachments/7b80cdf61657afa216a8a87a15e95990814fe9c2.jpeg) 
+
+![image](.attachments/ac89d37b4e098be57fca047f4abdf4d358880df3.jpeg) 
