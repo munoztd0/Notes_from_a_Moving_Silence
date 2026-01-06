@@ -198,4 +198,9 @@ Nothing more, nothing less. She brought out the good stuff, an old bottle of nih
 
 We talked for a while. Her name was Nago. She had moved here from the Tokyo area in the 1980s. She was born in 1944, one year before the bombs. I asked her about that time. She didn’t really answer. The silence lingered between us, thick but not uncomfortable. Being alone in that town, alone in that bar, I felt the simple urge to not drink by myself. So I offered her a drink.. She accepted with enthusiasm, poured herself a beer, and then, as if that small gesture had broken a spell, she began as if that opened a door, she started serving me fresh sea snails and razor clams, so fresh that some of them were still alive, shifting slightly on the plate.
 
-She handed me a cigarette. Then a lighter. I turned it in my hand and read the name stamped on its side, _Condor_. It caught me off guard. The legendary symbol of Peru which my grandfather used to talk about, half myth, half memory, suddenly sitting there in my palm, in a quiet bar at the edge of Shikoku. I smiled. Some symbols travel further than people ever do.
+She handed me a cigarette. Then a lighter. I turned it in my hand and read the name stamped on its side, _Condor_..
+
+It caught me off guard, the bird I had grown up with without ever really thinking about it. I’m Peruvian, my grandfather carried that symbol with him the same way he carried his past. Seeing it there, resting in my palm in a quiet bar at the edge of Shikoku, felt like a small collision of lives. Abuleo Antonio had been to Japan in the 1970s, long before I ever imagined this place, and somehow that had lodged itself in me, quietly steering me here decades later. With nothing between Peru and this edge of Japan but the vast, uninterrupted Pacific Ocean, the distance suddenly felt smaller.
+
+Holding that lighter decades later, 
+I smiled. Some symbols travel further than people ever do.
