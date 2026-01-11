@@ -1,3 +1,9 @@
+### Tokashiku beach 
+C'est un canal d'eau morte entre les berges de la rivière et l'océan Pacifique, ou des milliers de bernard-l'hermite dressés devant leur trou battaient l'air de leur pince droite dans des gestes racoleurs.
+
+
+### Normal
+
 Normal parfois je repense à mon adolescence et j'en dors mal. Je pensais que c'était normal. Il y a des choses dans ma tête que je dirais jamais à mes parents. C'est pas en écrivant quoi que ce soit que ça risque de changer. J'effacerai pas mes problèmes comme ça je le sais depuis des années. J'ai les mêmes habitudes depuis que je suis enfant. Je suis doué pour fuir la réalité et pour faire semblant. Ne pas voir le cœur des adultes qui saignent. C'est ça de grandir sans avoir des parents qui s'aiment. Pas un câlin pas un bisou je ne réalisais pas. J'ai découvert l'amour à la télé, au cinéma. Pas étonnant que je confonde mes romans avec la vie. Que je n'arrive pas à dire" je t'aime" à une fille...
 
 
