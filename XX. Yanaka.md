@@ -2,7 +2,7 @@ November 7th, 2025.
 
 
 
-First day in Japan. I return to my first Tokyu Hit expedition, the Yanaka district.
+First day in Japan. I return to my first Tokyo expedition, the Yanaka district.
 
 ![image](.attachments/4d31a0fb8bd6b7343e76b50478e6ffd1026f6b41.avif) 
 
