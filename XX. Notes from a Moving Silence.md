@@ -52,23 +52,3 @@ And that's where the confusion started. The cat genocide of Madabishima: Well, h
 But after asking the three old guys, I can say that something awful happened to the Madabishima cats. They apparently disappeared. But it's in my understanding that they were poisoned.
 
 It's difficult to really know the exact reason why someone did that or even if it was the acting of one single person or of a large group. It definitely decimated the cat population here. What a horrible start.
-
-### The Condor Lady, Imabari
-
-After riding more than a hundred kilometers in a single day across the Setonaikai Sea National Park, my legs finally gave up at Imabari, an old port town at the northern edge of Shikoku. These days, it’s mostly known as the gateway to the Shimanami Kaido, a place people pass through rather than stop in.
-
-I had just finished the ride and headed straight for the first izakaya I saw. Closed. The second one, closed too. The third, the same story.
-
-That’s how I ended up in that old Japanese bar, dimly lit, completely empty. An elderly woman stood behind the counter. I asked if there was anything to eat. She apologized immediately, the cook wasn’t there on Mondays.
-
-She asked if I would like something to drink instead. I nodded. I figured liquid calories were better than nothing.
-Nothing more, nothing less. She brought out the good stuff, an old bottle of nihonshu she had tucked away in the top shelf.
-
-We talked for a while. Her name was Nago. She had moved here from the Tokyo area in the 1980s. She was born in 1944, one year before the bombs. I asked her about that time. She didn’t really answer. The silence lingered between us, thick but not uncomfortable. Being alone in that town, alone in that bar, I felt the simple urge to not drink by myself. So I offered her a drink.. She accepted with enthusiasm, poured herself a beer, and then, as if that small gesture had broken a spell, she began as if that opened a door, she started serving me fresh sea snails and razor clams, so fresh that some of them were still alive, shifting slightly on the plate.
-
-She handed me a cigarette. Then a lighter. I turned it in my hand and read the name stamped on its side, _Condor_..
-
-It caught me off guard, the bird I had grown up with without ever really thinking about it. I’m Peruvian, my grandfather carried that symbol with him the same way he carried his past. Seeing it there, resting in my palm in a quiet bar at the edge of Shikoku, felt like a small collision of lives. Abuleo Antonio had been to Japan in the 1970s, long before I ever imagined this place, and somehow that had lodged itself in me, quietly steering me here decades later. With nothing between Peru and this edge of Japan but the vast, uninterrupted Pacific Ocean, the distance suddenly felt smaller.
-
-Holding that lighter decades later, 
-I smiled. Some symbols travel further than people ever do.
