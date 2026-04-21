@@ -1,9 +1,15 @@
 
-> Even if ravens are magnificent, they are doomed to die alone, whereas pigeons can share everything.
-> Sea Rain. There I was, waiting for the waves to jump on me and my board. I was just amazed by the sheer size of the break.
+> Ravens
+Even if ravens are magnificent, they are doomed to die alone, whereas pigeons can share everything.
+
+> Sea Rain. 
+
+There I was, waiting for the waves to jump on me and my board. I was just amazed by the sheer size of the break.
 > You could count over 50 surfers riding along, and that was a big thing. The sun had just set on the sea about half an hour ago, but the clouds were rolling in. They were robbing us of a clear sense of direction. They were flashing like a megawatt each minute or so. Instead, we were soon welcoming the morning sea rain. What are we feeling? Sensing the droplets leaping onto your face, while you're paddling out in the sea rain.
 > Thank you. Mimitsu Izakaya. Hinata.
-> Best meal of my life. I was definitely not expecting this. It was my first and last night, staying at Mimitsu-machi, the old samurai town of Edo.
+
+> Best meal of my life. 
+I was definitely not expecting this. It was my first and last night, staying at Mimitsu-machi, the old samurai town of Edo.
 > This place has been left untouched since 1830, and it's the place where the first emperor of Japan, Jimmu, 2600 years ago, set sail from there to unite Japan. He just came there because it was close to the most famous breaks. But I was fortunate enough to meet this guy, Keizo.
 > A middle-aged surfer, retiring, he's guided most surfers from all around the world. His English was a little interesting, and it was sometimes difficult to even understand his Google translations, but he was the greatest Japanese person I've met so far. He was burned by the sun, which is very uncommon to see in Japan, as they are all very cautious about the sun, but he here, as a surfer, definitely showed it.
 > Plus, having been on many boards for several years, you can see that his Japanese manners had certainly been corroded by Western surfer life. He explained to me how he got knocked out from an 8-meter storm wave, which dislocated both of his shoulders three years ago, and that he hasn't been able to surf since then. But at this weekend, he was going to surf again for the first time in three years with me.
