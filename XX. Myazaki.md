@@ -1,7 +1,3 @@
-
-# Ravens
-Even if ravens are magnificent, they are doomed to die alone, whereas pigeons can share everything.
-
 # Sea Rain. 
 
 Mimitsu-machi has been left untouched since 1830, and it's the place where the first emperor of Japan, Jimmu, 2600 years ago, set sail from there to unite Japan. I just came there because it was close to the most famous surf breaks of Jpapan. But I was fortunate enough to meet this guy, Keizo.
@@ -16,6 +12,27 @@ There I was, waiting for the waves to jump on me and my board. I was just amazed
 You could count over 50 surfers riding along, and that was a big thing. The sun had just set on the sea about half an hour ago, but the clouds were rolling in. They were robbing us of a clear sense of direction. They were flashing like a megawatt each minute or so. Instead, we were soon welcoming the morning sea rain. What a feeling.. Sensing the droplets leaping onto your face, while you're paddling out in the sea rain.
 
 Thanks Keizo !
+
+---
+
+# 海の雨 (Sea Rain)
+
+1830年から手つかずの町並みが残る美々津町（みみつまち）。ここは2600年前、日本の初代天皇である神武天皇が日本統一に向けて船出した場所でもある。僕がここに来たのは、単に日本で一番有名なサーフスポットに近かったからだ。でも幸運なことに、そこで「ケイゾウさん」という男性に出会うことができた。
+
+彼は定年退職した中年のサーファーで、世界中からやってくる多くのサーファーたちをガイドしてきた。彼の英語は少し錆びついていて、Google翻訳を通しても理解するのが難しい時があったけれど、僕がこれまで出会った日本人の中で間違いなく最高の人物だった。日焼け対策に余念がない日本では珍しく、彼は太陽の光で真っ黒に日焼けしていた。
+
+それに、長年多くの外国人と接してきたからか、彼の日本的な礼儀正しさは、西洋のサーファー文化にいい意味で「浸食」されているのがわかった。3年前、嵐の中で6メートルの波に飲まれて両膝を脱臼して以来、ずっとサーフィンができなかったと彼は教えてくれた。でもこの週末、僕と一緒に3年ぶりにサーフィンに復帰するというのだ。
+
+とても光栄に思ったけれど、同時に4メートル級の波に連れて行かれるんじゃないかとビクビクもしていた。とにかく、それは宮崎の海で波に顔を激しく打たれた僕の初日だった。控えめに言っても、海は決して穏やかではなかった。
+
+僕は波が自分とボードに襲いかかってくるのを待っていた。ただただ、その波の大きさに圧倒されていた。周りには50人以上のサーファーが波に乗っていて、それはなかなかの光景だった。
+
+30分ほど前に太陽が隠れたかと思うと、分厚い雲が押し寄せてきた。雲は僕たちから方向感覚を奪っていった。1分おきにメガワット級の稲妻が光っていた。そして間もなく、僕らは海に降る朝の雨を迎えた。なんて最高な気分だろう。海の雨の中をパドリングしながら、顔に跳ね返る水滴を感じる。
+
+ありがとう、ケイゾウさん！
+
+---
+
 
 # Best meal of my life.
 
@@ -46,3 +63,37 @@ Per-fe-ction. It felt like I was a ten-year-old boy coming out of school in rura
 I was served with this yam teppanyaki in its iron pan. It was smoking hot. It looked like a Spanish tortilla made love to an American pancake, but inside it was a pool of cheese, which was not very common to see in Japan. And it was so fluffy, like if someone gently touched the inside of your mouth with a sponge. It was very simple, but the Japanese yam, which is not very sweet like we are used to in Western countries, and the daikon, Japanese white radishes, cooked to perfection, and the flavors, again, balanced with the utmost delicacy and respect, just melted my heart. I kept on making this "mmmhh" sound you usually make to be polite, or when you don't know the language, and you want to express appreciation, but all of them, every single one, were true, and couldn't be helped.
 After savoring each bite of my meal, I smiled and felt warmness and tenderness inside of me. I couldn't express what I was feeling in Japanese. It was way more complicated than my basic Japanese.
 It's even still hard to describe it in English right now..
+
+---
+
+# 人生最高の食事 (Best meal of my life)
+
+それは、江戸時代の古い武家町である美々津町での、最初で最後の夜だった。
+
+サーフィンをするには気温が低すぎたため、僕はケイゾウさんを近所の居酒屋での最後の晩餐に誘うことにした。お店の名前は「ひなた屋」。
+
+外観は古い町並みに溶け込む、19世紀の伝統的な武家屋敷そのものだった。しかし、一歩中に入ると全くの別世界が広がっていた。
+
+レトロな木製の振り子時計に可愛らしいイラストが飾られ、70年代のロックバラードが流れる、かなりヒップスターな空間だった。でも、驚きはしなかった。一番可愛かったのは、メニューに小さな双子のイラストが描かれていて、「2匹の小さなモンスターが走り回っていても気にしないでくださいね」といったメッセージが添えられていたことだ。
+
+酔っ払ったおじさんたちが焼酎をすすっているような、普通のスポーツ居酒屋ではないことはすぐにわかった。そこは、東京の喧騒から逃れてきた若い夫婦が営む、洗練された上品なモダン・レストランだったのだ。彼らは小さなホテルの地下で、岸に打ち寄せる波の音を聞きながら2人の小さな怪獣を育てている。ケイゾウさんにメニューのおすすめを聞くと、彼は満面の笑みで「全部美味しいよ」と答えた。
+
+僕が日本語のメニューを解読し始めている間に、ケイゾウさんは手始めにと、刺身の盛り合わせと魚の天ぷらを注文してくれた。僕はここ九州でのいつもの飲み物と、ほんのり柚子の風味が効いた日本のソーダ「ゆずサイダー」を頼んだ。
+
+最高だった。魚の盛り合わせがもうすぐなくなりそうで、次に何を頼もうか特にピンときていなかった時、あるものが目に飛び込んできた。カウンターの奥に「イベリコ豚の生ハム」の原木が丸ごと置かれていたのだ。
+
+オーナーに「これ、日本のものですか？」と聞くと、「いやいや、スペイン産ですよ」と返ってきた。僕は自分がスペイン出身だと伝えようとしたけれど、彼らはかなり困惑していた。というのも、つい10分ほど前にケイゾウさんが「彼はスイスから来た」と伝えていたからだ。まあそれはともかく、一瞬「ベロータ」の盛り合わせを頼もうかと考えた。日本語にはLの発音がないから「Bellota」を「ベロータ」と呼ぶんだけど、それが個人的にツボだったのだ。でも、値段を見た瞬間、すぐに身を引いた。それに、わざわざ日本まで来て生ハムを食べる必要もないしね。
+
+じゃあ何を頼んだのかって？ まずはホタテとアスパラガスを注文したんだけど、案の定売り切れだった。でも、それは僕の人生で最高の不運だったかもしれない。なぜなら、その代わりに山芋の鉄板焼きと、特製の炭火焼き地鶏チャーハンを頼むことになったからだ。特に気取った料理ではない。
+
+日本での冒険の中で、僕はすでに星の数ほどのチャーハンを食べてきたし、関西にいた頃には数え切れないほどの鉄板焼きを食べてきた。でも、ああ神様、ここのは全く違った。「ソウルフード」という言葉の意味を、ついに理解した瞬間だった。
+
+チャーハンはおそらく東アジア全域で最も人気のある食べ物の一つであり、同時に最もシンプルな料理でもある。でも、なんということだ。炭火焼きの地鶏には、スモーキーさと旨味がたっぷり詰まっていた。すべてが完璧なバランスだった。
+
+そしてお米。見た目は普通なのに、火の通り具合が完璧だった。パサパサすぎず、油っぽすぎず、ダマにもなっておらず、柔らかすぎない。野菜はほんの少し火が通っただけで、完璧なシャキシャキ感。そこへ小さなサイコロ状に切られた新鮮な大根が入っていて、それがまたありがたい清涼感をもたらしていた。完・璧、だ。まるで自分が日本の田舎の学校から帰ってきた10歳の少年で、日本のおばあちゃんから愛情たっぷりのご飯を出してもらったような気分だった。でも待ってほしい、それだけじゃない。
+
+鉄板に乗ったまま運ばれてきた山芋の鉄板焼き。湯気を立てて熱々だった。見た目はスペイン風オムレツとアメリカンパンケーキが恋に落ちて生まれたような感じだったけれど、中には日本では珍しいチーズの海が広がっていた。そして、まるで誰かがスポンジで口の中を優しく触っているかのようにフワフワだった。とてもシンプルだけれど、欧米の芋のように甘すぎない日本の山芋と、完璧に火が通った大根、そして最高の繊細さと敬意をもってバランスが取られたその風味が、僕の心を溶かした。礼儀として、あるいは言葉がわからない時に感謝を伝えるために出す「んーー」というあの唸り声を何度も漏らしてしまったけれど、そのすべてが、一つ残らず心からのものであり、どうしようもないほど溢れ出てしまったものだった。
+
+ひと口ひと口を味わった後、僕は微笑み、自分の中に温かさと優しさを感じていた。自分が感じていることを日本語で表現することはできなかった。僕の拙い日本語レベルを遥かに超えるほど、それは複雑な感情だった。今、英語で書き表すことすら難しいくらいに。
+
+
