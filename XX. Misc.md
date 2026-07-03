@@ -4,7 +4,6 @@
 
 <div class="col en">
 
-
 ### Tokashiku beach 
 
 C'est un canal d'eau morte entre les berges de la rivière et l'océan Pacifique, ou des milliers de bernard-l'hermite dressés devant leur trou battaient l'air de leur pince droite dans des gestes racoleurs.
@@ -17,7 +16,7 @@ C'est un canal d'eau morte entre les berges de la rivière et l'océan Pacifique
 
 それは、川岸と太平洋のあいだに挟まれた死んだ水のような水路だった。そこでは何千ものヤドカリが自分の穴の前に立ち、右のはさみを空中に向かって振り上げていた。まるで何かを呼び込むような、軽薄な仕草で。
 
-
+<!-- 
 ---
 
 ### Normal
@@ -31,7 +30,7 @@ Normal parfois je repense à mon adolescence et j'en dors mal. Je pensais que c'
 
 子どもの頃から同じ癖を持っている。現実から逃げるのが得意で、何もないふりをするのが上手い。大人たちの心が血を流していることにも気づかないふりをする。
 
-愛し合わない両親のもとで育つというのはそういうことだ。抱きしめも、キスもないまま、それが普通だと思っていた。愛というものはテレビや映画で知った。だからこそ、小説と現実を混同してしまう。女の子に「愛してる」と言えないのも、そのせいかもしれない。
+愛し合わない両親のもとで育つというのはそういうことだ。抱きしめも、キスもないまま、それが普通だと思っていた。愛というものはテレビや映画で知った。だからこそ、小説と現実を混同してしまう。女の子に「愛してる」と言えないのも、そのせいかもしれない。 -->
 
 ---
 
@@ -46,6 +45,7 @@ He who does not accept to begin by learning to live with less here is certain to
 ここで、より少ないもので生きることを最初に学ぼうとしない者は、間違いなく時間を無駄にすることになる。
 
 Traveling: putting your head on the chopping block a hundred times, and a hundred times retrieving it from the basket to find it almost unchanged. We still hoped for a miracle, even though we shouldn't expect any other than this wearing down and this erosion of life with which we have an appointment, and before which we so wrongly rear up. I travel to learn, and no one had taught me what I discovered here.
+
 旅とは、100回首切り台に頭を乗せ、100回その首を籠から拾い上げ、それでもほとんど変わっていない自分の顔を見つけることだ。私たちはそれでも奇跡を期待してしまうが、私たちが直面することになる生命の摩耗や浸食、私たちがひどく間違って抵抗してしまうその現象以上に、別の奇跡を待つべきではないのだ。私は学ぶために旅をしているが、私がここで発見したことを教えてくれた者は誰もいなかった。
 
 
@@ -118,7 +118,6 @@ Just a few minutes of sunset, but so many stories that have crossed that horizon
 ただ数分の夕日。それでも、その地平線を越えてきた無数の物語がある。
 
 </div>
-
 </div>
 
 ![image](.attachments/7b80cdf61657afa216a8a87a15e95990814fe9c2.jpeg)

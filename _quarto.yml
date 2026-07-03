@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _book
+  output-dir: docs
 
 book:
   title: "Notes from a Moving Silence - 移りゆく静寂からの手記"
