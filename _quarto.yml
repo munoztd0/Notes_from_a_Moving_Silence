@@ -4,7 +4,7 @@ project:
 
 book:
   title: "Notes from a Moving Silence - 移りゆく静寂からの手記"
-  author: "David Tord - デイヴィッド・トールド"
+  author: "David Tord - デヴド・トールド"
   date: "2026"
   chapters:
     - index.qmd

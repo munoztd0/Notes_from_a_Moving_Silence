@@ -32,4 +32,4 @@ In the rumble of its subway alleys, every night he looks up the lights, blurred 
 
 </div>
 
-![image](.attachments/1e6aaa25f80965ea5622389f73049e28713b480c.png)
+![image](https://github.com/munoztd0/Notes_from_a_Moving_Silence/blob/739af34287592d26d9b4979046ba8922bc3138e0/.attachments/1e6aaa25f80965ea5622389f73049e28713b480c.png?raw=true)
