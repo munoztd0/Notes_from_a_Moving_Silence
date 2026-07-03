@@ -28,13 +28,14 @@ book:
 
 format:
   html:
+    css: styles.css
     toc: false
     number-sections: false
   pdf:
     documentclass: scrbook
     pdf-engine: xelatex
     mainfont: "Times New Roman"
-    CJKmainfont: "meiryo.ttc"
+    CJKmainfont: "Yu Gothic"
     classoption: oneside
     keep-tex: false
     number-sections: false

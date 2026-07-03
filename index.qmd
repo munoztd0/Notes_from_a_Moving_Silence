@@ -1,6 +1,4 @@
-# Preface
-
-# 序文
+# Preface - 序文
 
 These notes would not exist without the people who made this journey possible, who welcomed a stranger, shared their stories, and transformed what began as a simple visit into something far more meaningful.
 この記録は、この旅を可能にしてくれた人々がいなければ存在しなかっただろう。彼らはよそ者である私を迎え入れ、物語を分かち合い、単なる訪問から始まったものを、はるかに意味深いものへと変えてくれた。

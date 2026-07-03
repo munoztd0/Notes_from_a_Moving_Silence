@@ -1,4 +1,8 @@
-# Like I was 12 again
+# Like I was 12 again - 12歳に戻ったみたいに
+
+<div class="bilingual">
+
+<div class="col en">
 
 I can very precisely remember the first time I opened a manga. It was during a holiday, with my parents. It was a horribly boring week 
 
@@ -54,7 +58,10 @@ I'd been there for about 3 hours straight. The library was closing, and so was m
 
 ---
 
-### 12歳に戻ったみたいに
+</div>
+
+<div class="col jp">
+
 
 最初に漫画を開いた瞬間のことを、今でもかなり正確に覚えている。両親と一緒の休暇中だった。ひどく退屈な一週間だった。
 
@@ -131,3 +138,7 @@ I'd been there for about 3 hours straight. The library was closing, and so was m
 そこに3時間いたことになる。
 
 図書館は閉まりつつあった。そして同時に、私の子供時代も閉じていった。
+
+</div>
+
+</div>

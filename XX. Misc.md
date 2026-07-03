@@ -1,3 +1,9 @@
+# Miscellaneous - その他
+
+<div class="bilingual">
+
+<div class="col en">
+
 
 ### Tokashiku beach 
 
@@ -94,13 +100,14 @@ A silent promise that whatever waits across the sea is worth the risk, even if t
 
 Just a few minutes of sunset, but so many stories that have crossed that horizon.
 
-![image](.attachments/7b80cdf61657afa216a8a87a15e95990814fe9c2.jpeg) 
 
-![image](.attachments/ac89d37b4e098be57fca047f4abdf4d358880df3.jpeg) 
 
 ---
 
-### フェリーの思考
+</div>
+
+<div class="col jp">
+
 
 鹿児島のフェリーの上甲板から、桜島の火山の向こうへ太陽が沈んでいくのを見ていた。その光景は、静かで、永遠の中に引き延ばされていくような瞬間だった。海は穏やかで、空はゆっくりと閉じていく。
 
@@ -109,3 +116,10 @@ Just a few minutes of sunset, but so many stories that have crossed that horizon
 海の向こうに何が待っているのか分からなくても、それでも進む価値があるという、静かな約束。
 
 ただ数分の夕日。それでも、その地平線を越えてきた無数の物語がある。
+
+</div>
+
+</div>
+
+![image](.attachments/7b80cdf61657afa216a8a87a15e95990814fe9c2.jpeg)
+![image](.attachments/ac89d37b4e098be57fca047f4abdf4d358880df3.jpeg)
