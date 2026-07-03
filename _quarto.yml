@@ -9,10 +9,6 @@ book:
   chapters:
     - index.qmd
     - "00. Notes from a Moving Silence.md"
-    - "01. Warabya Kids.md"
-    - "01a. Morino-san.md"
-    - "01b. Miki-san.md"
-    - "01c. Kobayashi-san.md"
     - "02. Aluminium Nest.md"
     - "04. Bon Voyage Chef!.md"
     - "05. Closing time.md"
@@ -20,6 +16,9 @@ book:
     - "07. The Sea - Umi.md"
     - "07b. The Smell of Wet Towels.md"
     - "07c. Matsuri season.md"
+    - "01. Warabya Kids.md"
+    - "01a. Morino-san.md"
+    - "01c. Kobayashi-san.md"
     - "08. Aka jima.md"
     - "09. Yonaguni.md"
     - "10. Myazaki.md"
