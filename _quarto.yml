@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Notes from a Moving Silence - 移りゆく静寂からの手記"
+  author: "David Tord - デイヴィッド・トールド"
+  date: "2026"
+  chapters:
+    - index.qmd
+    - "00. Notes from a Moving Silence.md"
+    - "01. Warabya Kids.md"
+    - "01a. Morino-san.md"
+    - "01b. Miki-san.md"
+    - "01c. Kobayashi-san.md"
+    - "02. Aluminium Nest.md"
+    - "04. Bon Voyage Chef!.md"
+    - "05. Closing time.md"
+    - "06. Sunny Coral.md"
+    - "07. The Sea - Umi.md"
+    - "07b. The Smell of Wet Towels.md"
+    - "07c. Matsuri season.md"
+    - "08. Aka jima.md"
+    - "09. Yonaguni.md"
+    - "10. Myazaki.md"
+    - "11. Naha.md"
+    - "XX. Misc.md"
+
+format:
+  html:
+    toc: false
+    number-sections: false
+  pdf:
+    documentclass: scrbook
+    pdf-engine: xelatex
+    mainfont: "Times New Roman"
+    CJKmainfont: "meiryo.ttc"
+    classoption: oneside
+    keep-tex: false
+    number-sections: false
+    toc: false
+    includes:
+      in-header: preamble.tex
+    geometry: margin=20mm

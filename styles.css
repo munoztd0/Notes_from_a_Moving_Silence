@@ -1,0 +1,167 @@
+/* Custom styling for Notes from a Moving Silence */
+
+:root {
+  --primary-color: #2c5aa0;
+  --secondary-color: #f4a261;
+  --accent-color: #e76f51;
+  --light-bg: #fffbf7;
+  --dark-text: #333333;
+}
+
+body {
+  font-family: 'Georgia', 'Garamond', serif;
+  line-height: 1.8;
+  color: var(--dark-text);
+  background-color: var(--light-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+h1 {
+  border-bottom: 3px solid var(--secondary-color);
+  padding-bottom: 0.5em;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+/* Part section styling */
+.part {
+  page-break-before: always;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.part h1 {
+  font-size: 2em;
+  color: var(--primary-color);
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 4px solid var(--secondary-color);
+  padding-left: 1.5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+  color: #666;
+}
+
+/* Code styling */
+code {
+  background-color: #f5f5f5;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+pre code {
+  background-color: #f5f5f5;
+  padding: 1em;
+  display: block;
+  overflow-x: auto;
+}
+
+/* Link styling */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+a:hover {
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 2px solid var(--secondary-color);
+  margin: 2em 0;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+}
+
+th {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75em;
+  text-align: left;
+}
+
+td {
+  padding: 0.75em;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Navigation and TOC */
+nav.quarto-toc {
+  background-color: rgba(44, 90, 160, 0.05);
+  padding: 1.5em;
+  border-radius: 4px;
+}
+
+nav.quarto-toc h2 {
+  color: var(--primary-color);
+}
+
+nav.quarto-toc a {
+  border-bottom: none;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background-color: white;
+  }
+  
+  h1, h2 {
+    page-break-after: avoid;
+  }
+  
+  a {
+    color: var(--primary-color);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+  }
+  
+  body {
+    line-height: 1.6;
+  }
+}
