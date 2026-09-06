@@ -12,7 +12,7 @@ format:
     geometry: inner=25mm,outer=20mm,top=25mm,bottom=25mm
 ---
 
-# Preface
+## Preface
 
 
 These notes would not exist without the people who made this journey possible, who welcomed a stranger, shared their stories, and transformed what began as a simple visit into something far more meaningful.

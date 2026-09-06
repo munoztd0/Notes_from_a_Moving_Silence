@@ -1,11 +1,16 @@
 #!/usr/bin/env Rscript
 
+# PDF typography (points)
+body_size <- 14
+title_size <- 24
+section_title_size <- 18
+subtitle_size <- 16
+page_number_size <- 11
+
 root <- normalizePath(".")
-build_dir <- tempfile("notes-pdf-build-")
 output_dir <- file.path(root, "_book_pdf")
+build_dir <- tempfile("notes-pdf-build-")
 font_dir <- file.path(root, "fonts")
-crimson_regular <- file.path(font_dir, "CrimsonPro-Regular.ttf")
-crimson_italic <- file.path(font_dir, "CrimsonPro-Italic.ttf")
 chapters <- c(
   "index.qmd",
   "00. Notes from a Moving Silence.md",
@@ -22,8 +27,7 @@ chapters <- c(
   "08. Aka jima.md",
   "09. Yonaguni.md",
   "10. Myazaki.md",
-  "11. Naha.md"#,
-  #"XX. Misc.md"
+  "11. Naha.md"
 )
 
 xelatex <- Sys.which("xelatex")
@@ -31,14 +35,14 @@ if (!nzchar(xelatex)) {
   tinytex_xelatex <- file.path(path.expand("~"), ".TinyTeX", "bin", "x86_64-linux", "xelatex")
   if (file.exists(tinytex_xelatex)) xelatex <- tinytex_xelatex
 }
-
 required_commands <- c("quarto", "mutool", "pdfinfo")
 missing_commands <- required_commands[!nzchar(Sys.which(required_commands))]
 if (length(missing_commands) || !nzchar(xelatex)) {
   missing <- c(missing_commands, if (!nzchar(xelatex)) "xelatex")
   stop("Missing required command(s): ", paste(missing, collapse = ", "))
 }
-if (!file.exists(crimson_regular) || !file.exists(crimson_italic)) {
+if (!file.exists(file.path(font_dir, "CrimsonPro-Regular.ttf")) ||
+    !file.exists(file.path(font_dir, "CrimsonPro-Italic.ttf"))) {
   stop("Missing bundled Crimson Pro font files in ", font_dir)
 }
 
@@ -53,64 +57,77 @@ escape_yaml <- function(path) {
 extract_language <- function(path, language) {
   lines <- readLines(path, encoding = "UTF-8", warn = FALSE)
   document_title <- sub("^#\\s+", "", lines[grep("^#\\s+", lines)[1]])
-  start_marker <- sprintf('<div class="col %s">', language)
-  start <- which(lines == start_marker)[1]
+  start <- which(lines == sprintf('<div class="col %s">', language))[1]
   if (is.na(start)) stop("Cannot find ", language, " content in ", path)
   end <- which(lines[(start + 1):length(lines)] == "</div>")[1] + start
   if (is.na(end)) stop("Cannot find closing language block in ", path)
+
   content <- lines[(start + 1):(end - 1)]
   heading <- grep("^#\\s+", content)[1]
-
   if (is.na(heading)) {
     if (language == "jp") stop("Cannot find Japanese title in ", path)
-    language_title <- document_title
+    title <- document_title
   } else {
-    language_title <- sub("^#\\s+", "", content[heading])
+    title <- sub("^#\\s+", "", content[heading])
     content <- content[-heading]
   }
-
-  list(title = language_title, content = content)
+  list(title = title, content = content)
 }
 
 write_chapter <- function(chapter, language, index) {
   extracted <- extract_language(file.path(root, chapter), language)
-  language_dir <- file.path(build_dir, language)
-  dir.create(language_dir, recursive = TRUE, showWarnings = FALSE)
-  source_path <- file.path(language_dir, sprintf("%02d.qmd", index))
-  preamble <- escape_yaml(file.path(root, "preamble.tex"))
+  language_dir <- file.path(build_dir, sprintf("%02d", index), language)
+  dir.create(language_dir, recursive = TRUE)
+  layout_header <- file.path(language_dir, "layout.tex")
+  writeLines(c(
+    "\\usepackage{titlesec}",
+    sprintf("\\fontsize{%d}{%d}\\selectfont", body_size, ceiling(body_size * 1.4)),
+    "\\raggedright",
+    sprintf("\\titleformat{\\section}[block]{\\centering\\normalfont\\bfseries\\fontsize{%d}{%d}\\selectfont}{}{0pt}{}", title_size, ceiling(title_size * 1.2)),
+    sprintf("\\titleformat{\\subsection}[block]{\\normalfont\\bfseries\\fontsize{%d}{%d}\\selectfont}{}{0pt}{}", section_title_size, ceiling(section_title_size * 1.2)),
+    sprintf("\\titleformat{\\subsubsection}[block]{\\normalfont\\bfseries\\fontsize{%d}{%d}\\selectfont}{}{0pt}{}", subtitle_size, ceiling(subtitle_size * 1.2)),
+    sprintf("\\fancyfoot[LE,RO]{\\fontsize{%d}{%d}\\selectfont\\thepage}", page_number_size, ceiling(page_number_size * 1.2)),
+    sprintf("\\fancypagestyle{plain}{\\fancyhf{}\\fancyfoot[LE,RO]{\\fontsize{%d}{%d}\\selectfont\\thepage}\\renewcommand{\\headrulewidth}{0pt}}", page_number_size, ceiling(page_number_size * 1.2))
+  ), layout_header)
   font_header <- file.path(language_dir, "english-font.tex")
-  if (language == "en" && !file.exists(font_header)) {
+  if (language == "en") {
     writeLines(c(
       "\\setmainfont{CrimsonPro-Regular.ttf}[",
       sprintf("  Path=%s/,", font_dir),
       "  ItalicFont=CrimsonPro-Italic.ttf",
       "]"
-    ), font_header, useBytes = TRUE)
+    ), font_header)
   }
-  yaml <- c(
+
+  source_path <- file.path(language_dir, "chapter.qmd")
+  writeLines(c(
+    "---",
     "format:",
     "  pdf:",
-    "    documentclass: scrbook",
     "    pdf-engine: xelatex",
     "    mainfont: Noto Serif CJK JP",
-    "    classoption: twoside,openany",
+    "    documentclass: article",
     "    titlepage: false",
     "    toc: false",
     "    number-sections: false",
     "    include-in-header:",
-    sprintf("      - \"%s\"", preamble),
+    sprintf("      - \"%s\"", escape_yaml(file.path(root, "preamble.tex"))),
     if (language == "en") sprintf("      - \"%s\"", escape_yaml(font_header)),
-    "    geometry: inner=25mm,outer=20mm,top=25mm,bottom=25mm",
+    sprintf("      - \"%s\"", escape_yaml(layout_header)),
+    "    geometry: margin=25mm",
     "---",
-    ""
-  )
-  writeLines(c("---", yaml, paste0("# ", extracted$title), "", extracted$content), source_path, useBytes = TRUE)
+    "",
+    paste0("# ", extracted$title),
+    "",
+    extracted$content
+  ), source_path, useBytes = TRUE)
   source_path
 }
 
 render_chapter <- function(source_path) {
-  status <- system2("quarto", c("render", source_path, "--to", "pdf"))
-  if (status != 0) stop("Quarto failed to render ", source_path)
+  if (system2("quarto", c("render", source_path, "--to", "pdf")) != 0) {
+    stop("Quarto failed to render ", source_path)
+  }
   sub("\\.qmd$", ".pdf", source_path)
 }
 
@@ -119,8 +136,8 @@ page_count <- function(pdf_path) {
   as.integer(sub("^Pages:\\s+", "", output[grep("^Pages:", output)]))
 }
 
-blank_pdf <- file.path(build_dir, "blank.pdf")
 blank_tex <- file.path(build_dir, "blank.tex")
+blank_pdf <- file.path(build_dir, "blank.pdf")
 writeLines(c(
   "\\documentclass[letterpaper]{article}",
   "\\usepackage[margin=0pt]{geometry}",
@@ -135,20 +152,22 @@ if (system2(xelatex, c("-interaction=batchmode", "-output-directory", build_dir,
 
 merged_chapters <- character(length(chapters))
 for (index in seq_along(chapters)) {
-  message(sprintf("[%d/%d] %s", index, length(chapters), chapters[index]))
-  english_pdf <- render_chapter(write_chapter(chapters[index], "en", index))
-  japanese_pdf <- render_chapter(write_chapter(chapters[index], "jp", index))
+  chapter <- chapters[index]
+  message(sprintf("[%d/%d] %s", index, length(chapters), chapter))
+  english_pdf <- render_chapter(write_chapter(chapter, "en", index))
+  japanese_pdf <- render_chapter(write_chapter(chapter, "jp", index))
   english_pages <- page_count(english_pdf)
   japanese_pages <- page_count(japanese_pdf)
-  arguments <- c("merge", "-o", file.path(build_dir, sprintf("%02d.pdf", index)))
+  merged_pdf <- file.path(build_dir, sprintf("%02d.pdf", index))
+  arguments <- c("merge", "-o", merged_pdf)
   for (page in seq_len(max(english_pages, japanese_pages))) {
     arguments <- c(arguments,
       if (page <= english_pages) c(english_pdf, page) else blank_pdf,
       if (page <= japanese_pages) c(japanese_pdf, page) else blank_pdf
     )
   }
-  if (system2("mutool", arguments) != 0) stop("Could not merge ", chapters[index])
-  merged_chapters[index] <- file.path(build_dir, sprintf("%02d.pdf", index))
+  if (system2("mutool", arguments) != 0) stop("Could not merge ", chapter)
+  merged_chapters[index] <- merged_pdf
 }
 
 book_pdf <- file.path(output_dir, "Notes-from-a-Moving-Silence.pdf")

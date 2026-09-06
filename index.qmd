@@ -26,7 +26,7 @@ This collection is not a guide. It is a love letter to a place and the people wh
 
 <div class="col jp">
 
-# 序文
+## 序文
 
 この記録は、この旅を可能にしてくれた人々がいなければ存在しなかっただろう。彼らはよそ者である私を迎え入れ、物語を分かち合い、単なる訪問から始まったものを、はるかに意味深いものへと変えてくれた。
 

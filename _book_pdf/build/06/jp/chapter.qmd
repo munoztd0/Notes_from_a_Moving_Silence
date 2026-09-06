@@ -1,0 +1,26 @@
+---
+format:
+  pdf:
+    documentclass: article
+    pdf-engine: xelatex
+    mainfont: Noto Serif CJK JP
+    titlepage: false
+    toc: false
+    number-sections: false
+    include-in-header:
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/preamble.tex"
+    geometry: margin=25mm
+---
+
+## 閉店時間
+
+
+
+学校のように、ここではすべてが柔らかく、どこか懐かしい音の合図に従って進んでいく。時計はいらない。ただ耳を澄ませばいい。朝8時、その日の予定や、波の具合で船が出せるかどうかが放送で知らされる。12時半には、天気やその日の動きについての昼の知らせが流れる。
+
+夕方5時、最初のチャイムが鳴り、子どもたちに帰る時間が近いことを告げる。そして5時半、最後の合図——「帰宅」の放送が響く。夕暮れに、どこか儀式めいた空気が差し込む。まるで夜の星たちに、休みは終わりだ、そろそろ持ち場に戻る時間だと伝えているかのように。
+
+もちろんそれは、子どもたちにとっても遊びの終わりの合図だ。島の気配が少し変わる。空間がゆるみ、ヘビやムカデ、イノシシ、そして夜の生き物たちのための時間がひらけていく。
+
+---
+
