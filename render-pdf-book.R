@@ -4,8 +4,8 @@ root <- normalizePath(".")
 build_dir <- tempfile("notes-pdf-build-")
 output_dir <- file.path(root, "_book_pdf")
 font_dir <- file.path(root, "fonts")
-crimson_regular <- file.path(font_dir, "CrimsonPro[wght].ttf")
-crimson_italic <- file.path(font_dir, "CrimsonPro[ital,wght].ttf")
+crimson_regular <- file.path(font_dir, "CrimsonPro-Regular.ttf")
+crimson_italic <- file.path(font_dir, "CrimsonPro-Italic.ttf")
 chapters <- c(
   "index.qmd",
   "00. Notes from a Moving Silence.md",
@@ -50,22 +50,26 @@ escape_yaml <- function(path) {
   gsub("\\\\", "\\\\\\\\", gsub("\"", "\\\\\"", path))
 }
 
-split_title <- function(title) {
-  parts <- regexec("^(.*?)\\s+-\\s+(.*)$", title, perl = TRUE)
-  match <- regmatches(title, parts)[[1]]
-  if (length(match) == 3) match[2:3] else c(title, title)
-}
-
 extract_language <- function(path, language) {
   lines <- readLines(path, encoding = "UTF-8", warn = FALSE)
-  title <- sub("^#\\s+", "", lines[grep("^#\\s+", lines)[1]])
-  language_title <- split_title(title)[if (language == "en") 1 else 2]
+  document_title <- sub("^#\\s+", "", lines[grep("^#\\s+", lines)[1]])
   start_marker <- sprintf('<div class="col %s">', language)
   start <- which(lines == start_marker)[1]
   if (is.na(start)) stop("Cannot find ", language, " content in ", path)
   end <- which(lines[(start + 1):length(lines)] == "</div>")[1] + start
   if (is.na(end)) stop("Cannot find closing language block in ", path)
-  list(title = language_title, content = lines[(start + 1):(end - 1)])
+  content <- lines[(start + 1):(end - 1)]
+  heading <- grep("^#\\s+", content)[1]
+
+  if (is.na(heading)) {
+    if (language == "jp") stop("Cannot find Japanese title in ", path)
+    language_title <- document_title
+  } else {
+    language_title <- sub("^#\\s+", "", content[heading])
+    content <- content[-heading]
+  }
+
+  list(title = language_title, content = content)
 }
 
 write_chapter <- function(chapter, language, index) {
@@ -77,9 +81,9 @@ write_chapter <- function(chapter, language, index) {
   font_header <- file.path(language_dir, "english-font.tex")
   if (language == "en" && !file.exists(font_header)) {
     writeLines(c(
-      "\\setmainfont{CrimsonPro[wght].ttf}[",
+      "\\setmainfont{CrimsonPro-Regular.ttf}[",
       sprintf("  Path=%s/,", font_dir),
-      "  ItalicFont=CrimsonPro[ital,wght].ttf",
+      "  ItalicFont=CrimsonPro-Italic.ttf",
       "]"
     ), font_header, useBytes = TRUE)
   }
@@ -88,7 +92,7 @@ write_chapter <- function(chapter, language, index) {
     "  pdf:",
     "    documentclass: scrbook",
     "    pdf-engine: xelatex",
-    sprintf("    mainfont: %s", if (language == "en") "Crimson Pro" else "Noto Serif CJK JP"),
+    "    mainfont: Noto Serif CJK JP",
     "    classoption: twoside,openany",
     "    titlepage: false",
     "    toc: false",
