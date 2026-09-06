@@ -2,7 +2,7 @@
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{fontspec}
-\setmainfont{Noto Serif CJK JP}
+\newfontfamily\JapaneseTitleFont{Noto Serif CJK JP}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
@@ -27,8 +27,8 @@
 	\ifodd\value{page}\else\thispagestyle{empty}\null\newpage\fi
 }
 \newcommand{\BilingualEnglishTitle}[1]{%
-	\chapter*{#1}\markboth{#1}{}
+	\noindent{\normalfont\huge\bfseries #1\par}\markboth{#1}{}
 }
 \newcommand{\BilingualJapaneseTitle}[1]{%
-	\chapter*{#1}\markboth{}{#1}
+	\noindent{\JapaneseTitleFont\huge\mdseries #1\par}\markboth{}{#1}
 }
