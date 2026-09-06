@@ -134,5 +134,5 @@ Just a few minutes of sunset, but so many stories that have crossed that horizon
 </div>
 </div>
 
-![image](https://github.com/munoztd0/Notes_from_a_Moving_Silence/blob/739af34287592d26d9b4979046ba8922bc3138e0/.attachments/7b80cdf61657afa216a8a87a15e95990814fe9c2.jpeg?raw=true)
-![image](https://github.com/munoztd0/Notes_from_a_Moving_Silence/blob/739af34287592d26d9b4979046ba8922bc3138e0/.attachments/ac89d37b4e098be57fca047f4abdf4d358880df3.jpeg?raw=true)
+<!-- ![image](https://github.com/munoztd0/Notes_from_a_Moving_Silence/blob/739af34287592d26d9b4979046ba8922bc3138e0/.attachments/7b80cdf61657afa216a8a87a15e95990814fe9c2.jpeg?raw=true)
+![image](https://github.com/munoztd0/Notes_from_a_Moving_Silence/blob/739af34287592d26d9b4979046ba8922bc3138e0/.attachments/ac89d37b4e098be57fca047f4abdf4d358880df3.jpeg?raw=true) -->
