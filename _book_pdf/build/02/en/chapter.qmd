@@ -13,7 +13,7 @@ format:
     geometry: margin=25mm
 ---
 
-## Notes from a Moving Silence
+# Notes from a Moving Silence
 
 
 I spent most of my free time at Tokashiku Beach. A place that felt almost unreal.

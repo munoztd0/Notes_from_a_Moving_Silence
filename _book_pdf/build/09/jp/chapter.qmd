@@ -12,7 +12,7 @@ format:
     geometry: margin=25mm
 ---
 
-## 夏祭り
+# 夏祭り
 
 
 

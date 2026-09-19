@@ -12,7 +12,7 @@ format:
     geometry: margin=25mm
 ---
 
-## わらびや
+# わらびや
 
 
 

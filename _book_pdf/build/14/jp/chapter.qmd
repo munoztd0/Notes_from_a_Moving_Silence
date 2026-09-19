@@ -12,7 +12,7 @@ format:
     geometry: margin=25mm
 ---
 
-## 石と記憶のあいだ
+# 石と記憶のあいだ
 
 
 

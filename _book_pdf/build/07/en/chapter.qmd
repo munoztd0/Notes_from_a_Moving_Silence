@@ -13,7 +13,7 @@ format:
     geometry: margin=25mm
 ---
 
-## The Sea
+# The Sea
 
 
 It lies there, supple and unchanging. Around me, white birds and rusted houses. In the breaking of the waves, there is something of your voice. In the foam, a glint of your smile.

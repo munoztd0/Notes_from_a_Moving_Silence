@@ -13,7 +13,7 @@ format:
     geometry: margin=25mm
 ---
 
-## Aluminium Nest
+# Aluminium Nest
 
 
 The shrill rasp of cicadas, just awakened from their long underground hibernation, is deafening. One after another they scream, weaving a shattering unison, louder than the sum of each individual clicking joined together.

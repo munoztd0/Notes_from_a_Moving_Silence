@@ -6,6 +6,11 @@ title_size <- 24
 section_title_size <- 18
 subtitle_size <- 16
 page_number_size <- 11
+margin_cm <- 2
+line_spacing <- 1.15
+paragraph_spacing_pt <- 6
+first_line_indent_cm <- 0.5
+opening_body_offset_cm <- 5
 
 root <- normalizePath(".")
 output_dir <- file.path(root, "_book_pdf")
@@ -65,7 +70,7 @@ extract_language <- function(path, language) {
   content <- lines[(start + 1):(end - 1)]
   heading <- grep("^#\\s+", content)[1]
   if (is.na(heading)) {
-    if (language == "jp") stop("Cannot find Japanese title in ", path)
+    #if (language == "jp") stop("Cannot find Japanese title in ", path)
     title <- document_title
   } else {
     title <- sub("^#\\s+", "", content[heading])
@@ -81,11 +86,16 @@ write_chapter <- function(chapter, language, index) {
   layout_header <- file.path(language_dir, "layout.tex")
   writeLines(c(
     "\\usepackage{titlesec}",
+    "\\usepackage{setspace}",
+    "\\newfontfamily\\HeaderFont{Noto Serif CJK JP}",
     sprintf("\\fontsize{%d}{%d}\\selectfont", body_size, ceiling(body_size * 1.4)),
+    sprintf("\\setstretch{%.2f}", line_spacing),
+    sprintf("\\setlength{\\parskip}{%dpt}", paragraph_spacing_pt),
+    sprintf("\\setlength{\\parindent}{%.1fcm}", first_line_indent_cm),
     "\\raggedright",
-    sprintf("\\titleformat{\\section}[block]{\\centering\\normalfont\\bfseries\\fontsize{%d}{%d}\\selectfont}{}{0pt}{}", title_size, ceiling(title_size * 1.2)),
-    sprintf("\\titleformat{\\subsection}[block]{\\normalfont\\bfseries\\fontsize{%d}{%d}\\selectfont}{}{0pt}{}", section_title_size, ceiling(section_title_size * 1.2)),
-    sprintf("\\titleformat{\\subsubsection}[block]{\\normalfont\\bfseries\\fontsize{%d}{%d}\\selectfont}{}{0pt}{}", subtitle_size, ceiling(subtitle_size * 1.2)),
+    sprintf("\\titleformat{\\section}[block]{\\centering\\HeaderFont\\bfseries\\fontsize{%d}{%d}\\selectfont}{}{0pt}{}[\\vspace{%dcm}]", title_size, ceiling(title_size * 1.2), opening_body_offset_cm),
+    sprintf("\\titleformat{\\subsection}[block]{\\HeaderFont\\bfseries\\fontsize{%d}{%d}\\selectfont}{}{0pt}{}", section_title_size, ceiling(section_title_size * 1.2)),
+    sprintf("\\titleformat{\\subsubsection}[block]{\\HeaderFont\\bfseries\\fontsize{%d}{%d}\\selectfont}{}{0pt}{}", subtitle_size, ceiling(subtitle_size * 1.2)),
     sprintf("\\fancyfoot[LE,RO]{\\fontsize{%d}{%d}\\selectfont\\thepage}", page_number_size, ceiling(page_number_size * 1.2)),
     sprintf("\\fancypagestyle{plain}{\\fancyhf{}\\fancyfoot[LE,RO]{\\fontsize{%d}{%d}\\selectfont\\thepage}\\renewcommand{\\headrulewidth}{0pt}}", page_number_size, ceiling(page_number_size * 1.2))
   ), layout_header)
@@ -114,7 +124,7 @@ write_chapter <- function(chapter, language, index) {
     sprintf("      - \"%s\"", escape_yaml(file.path(root, "preamble.tex"))),
     if (language == "en") sprintf("      - \"%s\"", escape_yaml(font_header)),
     sprintf("      - \"%s\"", escape_yaml(layout_header)),
-    "    geometry: margin=25mm",
+    sprintf("    geometry: margin=%dcm", margin_cm),
     "---",
     "",
     paste0("# ", extracted$title),

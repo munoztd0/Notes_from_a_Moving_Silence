@@ -13,7 +13,7 @@ format:
     geometry: margin=25mm
 ---
 
-## Bon Voyage Chef !
+# Bon Voyage Chef !
 
 
 Some days, this island feels like a dream, and nothing embodies that more than Mai-san's food truck : "Bon Voyage". 

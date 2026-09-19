@@ -13,7 +13,7 @@ format:
     geometry: margin=25mm
 ---
 
-## Between stone and memory
+# Between stone and memory
 
 
 At the far western edge of Japan lies Yonaguni, where the gaze almost reaches Taiwan, and the sea already feels like it opens onto other worlds.

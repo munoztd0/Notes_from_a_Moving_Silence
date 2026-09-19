@@ -13,7 +13,7 @@ format:
     geometry: margin=25mm
 ---
 
-## Closing time
+# Closing time
 
 
 Like at school, everything here follows the sound of soft, and familiar, alarms. You don't need a watch, just open your ears. At 8 a.m., the daily announcement lets everyone know what's happening and whether the boat will manage to cross the swell. At 12:30, the midday message brings news of the weather and the day's activities.

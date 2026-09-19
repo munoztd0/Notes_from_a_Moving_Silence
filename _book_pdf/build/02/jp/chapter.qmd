@@ -12,7 +12,7 @@ format:
     geometry: margin=25mm
 ---
 
-## 移りゆく静寂からの手記
+# 移りゆく静寂からの手記
 
 
 

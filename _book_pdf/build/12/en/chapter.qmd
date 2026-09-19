@@ -13,7 +13,7 @@ format:
     geometry: margin=25mm
 ---
 
-## Ikigai
+# Ikigai
 
 
 Kobayashi-san has a presence that stays with you. A slender silhouette, always slightly in motion, a relaxed posture shaped by years spent outdoors rather than indoors. He smiles easily, almost constantly, with that gentle dad humor that arrives quietly and lands perfectly. Nothing forced, nothing heavy, just a natural ease, as if curiosity itself were a habit he never dropped.

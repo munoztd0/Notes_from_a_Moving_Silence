@@ -80,7 +80,7 @@ Just a few minutes of sunset, but so many stories that have crossed that horizon
 
 <div class="col jp">
 
-## その他
+# その他
 
 ### カラス
 

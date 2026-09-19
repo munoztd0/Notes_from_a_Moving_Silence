@@ -13,7 +13,7 @@ format:
     geometry: margin=25mm
 ---
 
-## Akajima
+# Akajima
 
 
 

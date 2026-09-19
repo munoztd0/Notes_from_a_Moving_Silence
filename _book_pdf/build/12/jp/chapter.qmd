@@ -12,7 +12,7 @@ format:
     geometry: margin=25mm
 ---
 
-## 生き甲斐
+# 生き甲斐
 
 
 

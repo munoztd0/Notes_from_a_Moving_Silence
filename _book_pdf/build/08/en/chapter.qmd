@@ -13,7 +13,7 @@ format:
     geometry: margin=25mm
 ---
 
-## The Smell of Wet Towels
+# The Smell of Wet Towels
 
 
 One of those days, could've been the day before… but no. Pretty sure it was the next one..
