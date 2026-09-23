@@ -1,4 +1,4 @@
-# Miscellaneous - その他
+# Miscellaneous
 
 <div class="bilingual">
 
@@ -12,7 +12,7 @@ Even if ravens are magnificent, they are doomed to die alone, whereas pigeons ca
 
 ### Tokashiku beach 
 
-C'est un canal d'eau morte entre les berges de la rivière et l'océan Pacifique, ou des milliers de bernard-l'hermite dressés devant leur trou battaient l'air de leur pince droite dans des gestes racoleurs.
+*C'est un canal d'eau morte entre les berges de la rivière et l'océan Pacifique, ou des milliers de bernard-l'hermite dressés devant leur trou battaient l'air de leur pince droite dans des gestes racoleurs.*
 
 
 ---
@@ -45,9 +45,9 @@ Traveling: putting your head on the chopping block a hundred times, and a hundre
 
 
 
-### Puesta de Sol (spanish)
+### *Puesta de Sol* (Spanish)
 
-Entre los árboles pude verlas nuevas luces del amanecer punto entre las branchas podíamos ver el sol naranja del atardecer.
+*Entre los árboles pude verlas nuevas luces del amanecer punto entre las branchas podíamos ver el sol naranja del atardecer.*
 
 
 ---
@@ -79,6 +79,8 @@ Just a few minutes of sunset, but so many stories that have crossed that horizon
 </div>
 
 <div class="col jp">
+
+# その他
 
 ### カラス
 
@@ -134,5 +136,5 @@ Just a few minutes of sunset, but so many stories that have crossed that horizon
 </div>
 </div>
 
-![image](https://github.com/munoztd0/Notes_from_a_Moving_Silence/blob/739af34287592d26d9b4979046ba8922bc3138e0/.attachments/7b80cdf61657afa216a8a87a15e95990814fe9c2.jpeg?raw=true)
-![image](https://github.com/munoztd0/Notes_from_a_Moving_Silence/blob/739af34287592d26d9b4979046ba8922bc3138e0/.attachments/ac89d37b4e098be57fca047f4abdf4d358880df3.jpeg?raw=true)
+<!-- ![image](https://github.com/munoztd0/Notes_from_a_Moving_Silence/blob/739af34287592d26d9b4979046ba8922bc3138e0/.attachments/7b80cdf61657afa216a8a87a15e95990814fe9c2.jpeg?raw=true)
+![image](https://github.com/munoztd0/Notes_from_a_Moving_Silence/blob/739af34287592d26d9b4979046ba8922bc3138e0/.attachments/ac89d37b4e098be57fca047f4abdf4d358880df3.jpeg?raw=true) -->

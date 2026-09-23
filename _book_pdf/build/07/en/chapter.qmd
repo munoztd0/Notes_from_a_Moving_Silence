@@ -1,0 +1,24 @@
+---
+format:
+  pdf:
+    documentclass: article
+    pdf-engine: xelatex
+    mainfont: Noto Serif CJK JP
+    titlepage: false
+    toc: false
+    number-sections: false
+    include-in-header:
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/preamble.tex"
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/_book_pdf/build/07/en/english-font.tex"
+    geometry: margin=25mm
+---
+
+# The Sea
+
+
+It lies there, supple and unchanging. Around me, white birds and rusted houses. In the breaking of the waves, there is something of your voice. In the foam, a glint of your smile.
+
+The sea rocks my soul the way it did that evening, when a song by Charles Trenet brought us closer, a little more with each chorus. Now, every wave carries me back to that moment.
+
+---
+

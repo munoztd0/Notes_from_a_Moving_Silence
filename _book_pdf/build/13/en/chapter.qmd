@@ -1,0 +1,23 @@
+---
+format:
+  pdf:
+    documentclass: article
+    pdf-engine: xelatex
+    mainfont: Noto Serif CJK JP
+    titlepage: false
+    toc: false
+    number-sections: false
+    include-in-header:
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/preamble.tex"
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/_book_pdf/build/13/en/english-font.tex"
+    geometry: margin=25mm
+---
+
+# Akajima
+
+
+
+Here, they tell the story of a dog named Shiro, who swam every day to the neighboring island to reunite with Marilyn, whom he had met before his owner moved away. Three kilometers of currents between Akajima and Zamami, crossed tirelessly. Today, two statues face each other from across the ocean, a silent reminder that certain distances do not matter when the bond is true.
+
+ ---
+

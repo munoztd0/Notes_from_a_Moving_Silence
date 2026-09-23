@@ -33,12 +33,13 @@ format:
   pdf:
     documentclass: scrbook
     pdf-engine: xelatex
-    mainfont: "Times New Roman"
-    CJKmainfont: "Yu Gothic"
-    classoption: oneside
+    mainfont: "Noto Serif CJK JP"
+    classoption: twoside
     keep-tex: false
     number-sections: false
-    toc: false
-    includes:
-      in-header: preamble.tex
-    geometry: margin=20mm
+    toc: true
+    titlepage: true
+    filters:
+      - bilingual-pdf.lua
+    include-in-header: preamble.tex
+    geometry: inner=25mm,outer=20mm,top=25mm,bottom=25mm

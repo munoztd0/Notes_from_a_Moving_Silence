@@ -1,0 +1,40 @@
+---
+format:
+  pdf:
+    documentclass: article
+    pdf-engine: xelatex
+    mainfont: Noto Serif CJK JP
+    titlepage: false
+    toc: false
+    number-sections: false
+    include-in-header:
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/preamble.tex"
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/_book_pdf/build/12/en/english-font.tex"
+    geometry: margin=25mm
+---
+
+# Ikigai
+
+
+Kobayashi-san has a presence that stays with you. A slender silhouette, always slightly in motion, a relaxed posture shaped by years spent outdoors rather than indoors. He smiles easily, almost constantly, with that gentle dad humor that arrives quietly and lands perfectly. Nothing forced, nothing heavy, just a natural ease, as if curiosity itself were a habit he never dropped.
+
+In the kitchen, he moves the same way he does everywhere else: with focus, generosity, and an obvious pleasure in doing things properly. He showed me the ropes of traditional Japanese cooking, *sukiyaki*, *tonkatsu*, *ozoni*, not as recipes to memorize, but as gestures to feel. Timing over measurement. Heat over theory. He cooks the way he lives: hands-on, precise, fully engaged. His passion spills into food effortlessly, as if caring deeply were simply his default setting.
+
+That same precision carries into the way he observes the world. He studied ornithology, and it shows. His attention is methodical, patient, grounded. He doesn't speculate or embellish. He reads nature carefully, on its own terms.
+
+In his twenties, he went to the wilds of the Yukon. No elaborate plan, no preparation worthy of the name. Canoe, wilderness, months on the river. A true leap into the unknown, guided more by instinct than by strategy. He tells it casually, almost offhandedly, as if drifting through the Canadian wild without a shared language were just another reasonable option life presented him with.
+
+He didn't plan a life. He followed a current.
+
+Today, he lives on a tiny island, far from the rivers and mountains that shaped him. Surrounded by salt water, which he admits, somewhat ironically, he doesn't particularly like, yet perfectly content to be immersed in nature all the same. The setting changed, but the movement didn't. He is still in motion.
+
+That motion defines him. Always doing something. Cutting grass under the scorching sun. Renovating houses. Cycling up and down the island to help, fix, carry, adjust. He never waits to be asked. He never complains. Movement, for him, isn't restlessness, it's balance. Staying alive by staying engaged.
+
+He embodies -- ikigai --. Not as an idea, but as a practice. No desk for forty years. No abstract philosophy. Just work that matters, effort directed somewhere real, days that leave a trace.
+
+There's something deeply striking about him: a youthful curiosity carried in a body shaped by time, without denial, without performance. He isn't nostalgic. He's moving forward.
+
+Meeting Kobayashi-san feels like a quiet lesson in how to live, not explained, not taught, simply shown, every day, through action.
+
+---
+

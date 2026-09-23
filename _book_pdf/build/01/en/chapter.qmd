@@ -1,0 +1,36 @@
+---
+format:
+  pdf:
+    documentclass: article
+    pdf-engine: xelatex
+    mainfont: Noto Serif CJK JP
+    titlepage: false
+    toc: false
+    number-sections: false
+    include-in-header:
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/preamble.tex"
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/_book_pdf/build/01/en/english-font.tex"
+    geometry: margin=25mm
+---
+
+# Preface
+
+
+These notes would not exist without the people who made this journey possible, who welcomed a stranger, shared their stories, and transformed what began as a simple visit into something far more meaningful.
+
+To Morino-san, Miki-san, Yamato-kun and Sakura-chan thanks for your kindness and patience as I fumbled through conversations and culture set the foundation for everything that followed. Thank you for seeing past the language barriers and for your generosity.
+
+Kobayashi-san, you were the quiet teacher. Every day, a lesson in how to live. How to work. How to move through the world with grace, curiosity, and genuine care. You guided these notes simply by being yourself.
+
+To the Warabiya Kids and Akiko-san, you reminded me what it means to be fully present. Whether it was fishing in the rain, learning the stories of your island, or simply existing in the rhythm of your home, you taught me more than you know.
+
+Rai-san, your quiet strength left an impression that lingers still.
+
+To Yoko sensei and Michael, thank you for the conversations, the laughter, and for helping me understand the deeper currents running through this place.
+
+To Mai-chan, your spirit and joy were a light during the quieter moments.
+
+And to everyone on the Tokashiki island, the fishermen at the port, the families we crossed paths with, the elders whose presence carried the weight of history, and the children whose curiosity mirrored my own. You are woven into every page of this book. Your generosity, your resilience, and the way you move through life with such graceful intentionality, that is what these notes attempt to capture.
+
+This collection is not a guide. It is a love letter to a place and the people who live there, written in fragments, in the quiet spaces between arrival and departure. It is my attempt to hold onto something I cannot stay in, and to share it with others who might understand that sometimes, the most profound experiences come from simply being present; watching clouds move across the sea, listening to the rain, and allowing ourselves to be changed by the people we meet along the way.
+

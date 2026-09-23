@@ -1,0 +1,25 @@
+---
+format:
+  pdf:
+    documentclass: article
+    pdf-engine: xelatex
+    mainfont: Noto Serif CJK JP
+    titlepage: false
+    toc: false
+    number-sections: false
+    include-in-header:
+      - "/home/david/Repos/Notes_from_a_Moving_Silence/preamble.tex"
+    geometry: margin=25mm
+---
+
+# 海
+
+
+
+
+そこにある。しなやかで、変わらない。周りには白い鳥と、錆びた家々。波が砕ける音の中に、どこかあなたの声が混じっている。泡のきらめきに、あなたの笑顔がふとよぎる。
+
+あの夕暮れと同じように、海は心を揺らす。シャルル・トレネの一曲が流れ、サビのたびに少しずつ距離が近づいていったあの時間。いまでは、一つひとつの波が、あの瞬間へと静かに連れ戻していく。
+
+---
+
